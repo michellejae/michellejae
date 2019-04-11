@@ -8,11 +8,13 @@ body{
 #headerContainer{
 display:flex;
 justify-content: space-between;
+margin: 10px 20px 10px 30px;
 }
 
 #name{
 font-family: 'Shadows Into Light', cursive;
 font-size: 3em;
+color:rgb(108, 108, 235);
 }
 
 #dropdownImg{
