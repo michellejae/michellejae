@@ -1,0 +1,20 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background-color:#FCFCFC;
+}
+
+#headerContainer{
+display:flex;
+justify-content: space-between;
+}
+
+#name{
+font-family: 'Shadows Into Light', cursive;
+font-size: 3em;
+}
+
+#dropdownImg{
+  height: 4em;
+}
