@@ -7,4 +7,5 @@
   <li>wireframe out the other sections</li>
   <li>start styling from mobile first</li>
   <li>cause of the above change your nav list</li>
+  <li>add a darker color when hover over nav list</li>
 </ul>
