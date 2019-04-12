@@ -39,16 +39,16 @@ color: rgba(10, 10, 10, 0.959);
 #nav-list-container{
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
 }
 
-ul{
+ /* ul{
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
-}
+} */
 
 li{
-  padding: 15px;
+  list-style-type: none;
 }
 
 a{
@@ -57,17 +57,21 @@ a{
 }
 
 #about-list{
+  /* padding: 15px; */
   color:#E42D33;
 }
 
 #portfolio-list{
+  /* padding: 15px; */
   color:#113166
 }
 
 #skills-list{
+  /* padding: 15px; */
   color:#F89522;
 }
 
 #contact-list{
+  /* padding: 15px 0px 15px 15px; */
   color: #32826B;
 }
