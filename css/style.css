@@ -59,7 +59,7 @@ color: rgba(10, 10, 10, 0.959);
   list-style-type: none;
 } */
 
-a{
+.list-item{
   font-family: 'Shadows Into Light', cursive;
   font-size: 2em;
 }
@@ -84,12 +84,10 @@ a{
   color: #32826B;
 }
 
-
 .dropdown-container{
   position: relative;
   display: inline-block;
-  
-}
+} 
 
 #my-button{
   width: 50px;
@@ -99,10 +97,18 @@ a{
   justify-content: space-evenly;
   border-radius: 10px;
   cursor: grab;
+  cursor: -moz-grab;
 }
 
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  z-index: 1;
+} 
+
 #my-button:hover, #my-button:focus{
-  background-color: rgb(201, 195, 195);
+  background-color: rgb(235, 227, 227);
 }
 
 .button-line{
@@ -111,9 +117,15 @@ a{
   border-radius: 10px;
 }
 
+a{
+  text-decoration-line: none;
+}
+
+
+.show {display:block;}
+
 #red{
   border-color: #E42D33;
- 
 }
 
 #blue{
@@ -127,6 +139,29 @@ a{
 #green{
 border-color: #32826B;
 }
+
+.button-link{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 1em;
+  display: block;
+}
+
+#about-button{
+  color: #E42D33;
+}
+
+#portfolio-button{
+  color: #113166;
+}
+
+#skill-button{
+  color: #F89522;
+}
+
+#contact-button{
+  color: #32826B;
+}
+
 
 @media only screen and (max-width: 475px){
 #name{
