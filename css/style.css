@@ -25,7 +25,7 @@ margin: 10px 20px 10px 20px;
 #name{
 font-family: 'Shadows Into Light', cursive;
 font-size: 3em;
-color:rgb(108, 108, 235);
+color: rgba(10, 10, 10, 0.959);
 }
 
 #dice-container{
@@ -43,8 +43,31 @@ color:rgb(108, 108, 235);
 
 ul{
   list-style-type: none;
+  padding: 0px;
+  margin: 0px;
 }
 
-.nav-list{
-  margin:10px;
+li{
+  padding: 15px;
+}
+
+a{
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 2em;
+}
+
+#about-list{
+  color:#E42D33;
+}
+
+#portfolio-list{
+  color:#113166
+}
+
+#skills-list{
+  color:#F89522;
+}
+
+#contact-list{
+  color: #32826B;
 }
