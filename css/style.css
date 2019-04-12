@@ -62,6 +62,8 @@ color: rgba(10, 10, 10, 0.959);
 .list-item{
   font-family: 'Shadows Into Light', cursive;
   font-size: 2em;
+  cursor: grab;
+  cursor: -moz-grab;
 }
 
 #about-list{
