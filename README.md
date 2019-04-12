@@ -8,4 +8,5 @@
   <li>start styling from mobile first</li>
   <li>cause of the above change your nav list</li>
   <li>add a darker color when hover over nav list</li>
+  <li>add a hand over nav list</li>
 </ul>
