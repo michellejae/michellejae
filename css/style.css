@@ -1,14 +1,25 @@
 body{
-  margin: 0;
+  margin: 8px;
   padding: 0;
   min-height: 100%;
-  background-color:#FCFCFC;
+  background-color:#FCFCFC; 
 }
 
-#headerContainer{
+#container{
+display: flex;
+flex-direction: column;
+}
+
+#nav-container{
 display:flex;
+flex-direction: row;
 justify-content: space-between;
-margin: 10px 20px 10px 30px;
+margin: 10px 20px 10px 20px;
+}
+
+#name-container{
+  display: flex;
+  flex-direction: row;
 }
 
 #name{
@@ -17,6 +28,23 @@ font-size: 3em;
 color:rgb(108, 108, 235);
 }
 
-#dropdownImg{
+#dice-container{
   height: 4em;
+}
+
+#diceImg{
+  height: 100%;
+}
+
+#nav-list-container{
+  display: flex;
+  flex-direction: row;
+}
+
+ul{
+  list-style-type: none;
+}
+
+.nav-list{
+  margin:10px;
 }
