@@ -161,7 +161,13 @@ border-color: #32826B;
 }
 
 #about-container{
-  /* border: black solid 1px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#about-mobile-container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -184,12 +190,19 @@ border-color: #32826B;
 
 }
 
-#about-content{
+#about-web-content{
   border: palegreen solid 1px;
   font-family: 'Cutive Mono', monospace;
   font-size: .008em;
   height: 30%;
   width: 75%;
+}
+
+#about-mobile-content{
+  border: palegreen solid 1px;
+  font-family: 'Cutive Mono', monospace;
+  font-size: .75em;
+
 }
 
 #photo-container{
@@ -229,7 +242,7 @@ border-color: #32826B;
     display: none;
   }
 
-  #about-content{
+  #about-web-content{
     display: none;
   }
 
