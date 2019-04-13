@@ -177,8 +177,8 @@ border-color: #32826B;
 
 #about-text-container{
   /* border: salmon solid 1px; */
-  height: 75%;
-  width: 40%;
+  /* height: 75%;
+  width: 40%; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,6 +187,7 @@ border-color: #32826B;
 #about-title{  
   font-family: 'Cutive Mono', monospace;
   font-size: 1.65em;
+  color: #E42D33;
 
 }
 
@@ -199,9 +200,11 @@ border-color: #32826B;
 }
 
 #about-mobile-content{
-  border: palegreen solid 1px;
+  /* border: palegreen solid 1px; */
   font-family: 'Cutive Mono', monospace;
-  font-size: .75em;
+  font-size: .65em;
+  margin: 0px 5px 0px 5px;
+  color: #E42D33;
 
 }
 
@@ -236,16 +239,26 @@ border-color: #32826B;
 }
 }
 
+@media only screen and (max-width: 700px){
+  #about-web-content{
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 700px){
+  #about-mobile-content{
+    display: none;
+  }
+}
+
 
 @media only screen and (max-width: 775px){
   #nav-list-container{
     display: none;
   }
 
-  #about-web-content{
-    display: none;
-  }
-
+ 
   
 }
 
