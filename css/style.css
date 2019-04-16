@@ -165,7 +165,7 @@ border-color: #32826B;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 10px 20px 10px 20px;
+  margin: 20px;
 }
 
 
@@ -178,7 +178,6 @@ border-color: #32826B;
 
 #it-me{
   max-width: 50%;
-  max-height: 50%;
 }
 
 
@@ -199,26 +198,10 @@ border-color: #32826B;
 }
 }
 
-@media only screen and (max-width: 700px){
-  #about-web-content{
-    display: none;
-  }
-
-}
-
-@media only screen and (min-width: 700px){
-  #about-mobile-content{
-    display: none;
-  }
-}
-
-
 @media only screen and (max-width: 775px){
   #nav-list-container{
     display: none;
   }
-
- 
   
 }
 
@@ -226,5 +209,21 @@ border-color: #32826B;
   .dropdown-container{
     display: none;
   }
+
+  #about-container{
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+  }
+
+  #about-text-container{
+    max-width: 40%;
+  }
+
+  #it-me{
+    max-width: 30%;
+    order: 1;
+  }
+
   
 }
