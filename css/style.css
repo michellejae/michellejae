@@ -165,13 +165,13 @@ border-color: #32826B;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  margin: 10px 20px 10px 20px;
 }
 
 #about-mobile-container{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 10em;
   align-items: center;
 }
 
