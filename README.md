@@ -7,5 +7,5 @@
   <li>start changing the flex box shit for about me web in media queries</li>
   <li>when you click on button it stays background color unless you click off on another part of window</li>
   <li>chat with rina about font style on about.</li>
-  <li>nav bar needs to stay at top</li>
+  <li>chat with rina about how text below project lays out. should stack be smaller. fill in actually wording first</li>
 </ul>
