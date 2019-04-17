@@ -6,16 +6,32 @@ body{
 }
 
 #container{
-display: flex;
-flex-direction: column;
+  background-color:#FCFCFC; 
+}
+
+#nav-wrapper{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+}
+
+#content-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
 #nav-container{
 display:flex;
 flex-direction: row;
 justify-content: space-between;
-margin: 10px 20px 10px 20px;
+margin: 0px 20px 10px 20px;
 align-items: center;
+background-color:#FCFCFC; 
+padding-top:10px;
 }
 
 #name-container{

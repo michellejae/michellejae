@@ -13,62 +13,70 @@
 
   <body>
     <div id="container">
-      <section id="nav-container">
-        <div id="name-container">
-          <div id="name">michelle moyer</div>
-          <div id="dice-container">
-            <img src="assets/dice.png" id="diceImg">
+      <div id="nav-wrapper">
+        <section id="nav-container">
+          <div id="name-container">
+            <div id="name">michelle moyer</div>
+            <div id="dice-container">
+              <img src="assets/dice.png" id="diceImg">
+            </div>
           </div>
-        </div>
-        <div class="dropdown-container">
-          <div onclick="dropDown()" id="my-button" class="my-button">
-            <div class="button-line" id="red"></div>
-            <div class="button-line" id="blue"></div>
-            <div class="button-line" id="yellow"></div>
-            <div class="button-line" id="green"></div>
+          <div class="dropdown-container">
+            <div onclick="dropDown()" id="my-button" class="my-button">
+              <div class="button-line" id="red"></div>
+              <div class="button-line" id="blue"></div>
+              <div class="button-line" id="yellow"></div>
+              <div class="button-line" id="green"></div>
+            </div>
+            <div id="dropdown" class="dropdown-content">
+              <a class="button-link" id="about-button" href="#">about</a>
+              <a class="button-link" id="portfolio-button" href="#">portfolio</a>
+              <a class="button-link" id="skill-button" href="#">skills</a>
+              <a class="button-link" id="contact-button" href="#">contact</a>
+            </div>
           </div>
-          <div id="dropdown" class="dropdown-content">
-            <a class="button-link" id="about-button" href="#">about</a>
-            <a class="button-link" id="portfolio-button" href="#">portfolio</a>
-            <a class="button-link" id="skill-button" href="#">skills</a>
-            <a class="button-link" id="contact-button" href="#">contact</a>
-          </div>
-        </div>
-        <div id="nav-list-container">
-          <ul>
-            <li class="nav-list">
-              <a class="list-item" id="about-list">about</a>
-            </li>
-            <li class="nav-list">
-              <a class="list-item" id="portfolio-list">portfolio</a>
-            </li>
-            <li class="nav-list">
-              <a class="list-item" id="skills-list">skills</a>
-            </li>
-            <li class="nav-list">
-              <a class="list-item" id="contact-list">contact</a>
-            </li>
-          </ul>
-          <div>
-      </section>
-      <section id="about-container">
-        <img class="about-stuff" id="it-me" src="/assets/Layer 2.png">
-         <p id="about-text-container">
-          hi, i’m michelle. i’m a newly trained fullstack web developer looking to transition into my first tech role. i
-          completed a full-time four month coding bootcamp in hawaii learning to build and deploy full stack web
-          application using HTML5, CSS, Javascript, React, AngularJS and Express. i also recently completed a five week
-          python course on data analysis and visualization. <br> before moving into tech i worked in
-          advertising fox six years - most recently as a production manager for a mural painting company - managing projects,
-          communicating with clients and overseeing art jobs. in my past time i enjoy going to community events in
-          brooklyn, volunteering, all things Harry Potter and am currently navigating my way around servers and learning linux. im
-          open to internships, contract work, and both part and full-time roles.
-        </p>
+          <div id="nav-list-container">
+            <ul>
+              <li class="nav-list">
+                <a class="list-item" id="about-list">about</a>
+              </li>
+              <li class="nav-list">
+                <a class="list-item" id="portfolio-list">portfolio</a>
+              </li>
+              <li class="nav-list">
+                <a class="list-item" id="skills-list">skills</a>
+              </li>
+              <li class="nav-list">
+                <a class="list-item" id="contact-list">contact</a>
+              </li>
+            </ul>
+            <div>
+        </section>
+      </div>
+      <div id=content-container>
+        <section id="about-container">
+          <img class="about-stuff" id="it-me" src="/assets/Layer 2.png">
+          <p id="about-text-container">
+            hi, i’m michelle. i’m a newly trained fullstack web developer looking to transition into my first tech role.
+            i
+            completed a full-time four month coding bootcamp in hawaii learning to build and deploy full stack web
+            application using HTML5, CSS, Javascript, React, AngularJS and Express. i also recently completed a five
+            week
+            python course on data analysis and visualization. <br> before moving into tech i worked in
+            advertising fox six years - most recently as a production manager for a mural painting company - managing
+            projects,
+            communicating with clients and overseeing art jobs. in my past time i enjoy going to community events in
+            brooklyn, volunteering, all things Harry Potter and am currently navigating my way around servers and
+            learning linux. im
+            open to internships, contract work, and both part and full-time roles.
+          </p>
 
 
-      </section>
-      <section id="portfolio-container"></section>
-      <section id="skills-container"></section>
-      <section id="contact-container"></section>
+        </section>
+        <section id="portfolio-container"></section>
+        <section id="skills-container"></section>
+        <section id="contact-container"></section>
+      </div>
     </div>
     <script src="js/script.js"></script>
   </body>
