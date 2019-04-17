@@ -55,12 +55,12 @@ color: rgba(10, 10, 10, 0.959);
 #diceImg{
   height: 100%;
 }
-
+/* 
 #nav-list-container{
   display: flex;
-  /* flex-direction: row;
-  align-items: center; */
-}
+  flex-direction: row;
+  align-items: center;
+} */
 
  ul{
   list-style-type: none;
@@ -181,7 +181,7 @@ border-color: #32826B;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin: 20px;
+  margin: 0px 20px 10px 20px;
 }
 
 
@@ -189,12 +189,60 @@ border-color: #32826B;
   font-family: 'Cutive Mono', monospace;
   font-size: 1rem;
   color: #E42D33;
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 #it-me{
   max-width: 50%;
 }
+
+#portfolio-container{
+  /* border: 1px black solid; */
+  margin: 0px 15px 0px 15px;
+}
+
+.section-titles{
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+#portfolio-title{
+  color: #113166;
+}
+
+.portfolio-content-container{
+  /* border: 2px violet solid; */
+  margin: 0px 20px 0px 20px;
+}
+
+.single-portfolio-container{
+  margin-top:15px;
+}
+
+.single-portfolio-img-container{
+  height: 150px
+}
+
+.portfolio-img{
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.single-portfolio-content{
+  /* border: 1px red solid; */
+  font-family: 'Cutive Mono', monospace;
+  font-size: .75rem;
+  margin: 10px 5px 5px 5px;
+}
+
+.single-portfolio-stack{
+  /* border: 1px blue solid; */
+  font-family: 'Cutive Mono', monospace;
+  font-size: .7rem;
+  margin: 5px;
+}
+
 
 
 
