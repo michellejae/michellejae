@@ -210,7 +210,7 @@ border-color: #32826B;
 }
 
 .portfolio-content-container{
-  margin: 0px 20px 0px 20px;
+  margin: 0px 20px 10px 20px;
 }
 
 .single-portfolio-container{
@@ -240,27 +240,30 @@ border-color: #32826B;
 }
 
 #skills-container{
-  border: 1px solid black;
+  margin: 0px 15px 0px 15px;
 }
 
 #skills-title{
-  border: 1px solid salmon;
+  color: #F89522;
 }
 
 .skills-content-container{
-  border: 1px solid violet;
+  margin: 5px 10px 5px 10px;
 }
 
-.single-skill-content{
+/* .single-skill-content{
   border: 1px solid yellowgreen;
-}
+} */
 
 .skill-title{
-  border: 1px solid lightseagreen;
+  font-family: 'Cutive Mono', monospace;
+  font-size: 1rem;
 }
 
 .skill-content{
-  border: 1px solid red;
+  font-family: 'Cutive Mono', monospace;
+  font-size: .7rem;
+  margin: 5px;
 }
 
 
