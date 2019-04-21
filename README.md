@@ -8,4 +8,5 @@
   <li>when you click on button it stays background color unless you click off on another part of window</li>
   <li>chat with rina about font style on about.</li>
   <li>chat with rina about how text below project lays out. should stack be smaller. fill in actually wording first</li>
+  <li>make section titles in web larger</li>
 </ul>

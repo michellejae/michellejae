@@ -243,7 +243,17 @@ border-color: #32826B;
   margin: 5px;
 }
 
+@media only screen and (min-width: 475px){
+  .portfolio-content-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
 
+  .single-portfolio-container{
+    width: 40%;
+  }
+}
 
 
 
@@ -287,6 +297,15 @@ border-color: #32826B;
   #it-me{
     max-width: 30%;
     order: 1;
+  }
+
+  .portfolio-content-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .single-portfolio-container{
+    width: 25%;
   }
 
   
