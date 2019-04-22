@@ -295,9 +295,6 @@ border-color: #32826B;
 }
 
 
-
-
-
 @media only screen and (min-width: 475px){
   .portfolio-content-container{
     display: flex;
@@ -307,6 +304,10 @@ border-color: #32826B;
 
   .single-portfolio-container{
     width: 40%;
+  }
+
+  .single-contact-link-container{
+    width:2.5em;
   }
 }
 
