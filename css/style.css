@@ -187,7 +187,7 @@ border-color: #32826B;
 
 #about-text-container{
   font-family: 'Cutive Mono', monospace;
-  font-size: 1rem;
+  font-size: .9rem;
   color: #E42D33;
   margin-top: 30px;
 }
@@ -210,11 +210,15 @@ border-color: #32826B;
 }
 
 .portfolio-content-container{
-  margin: 0px 20px 10px 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 .single-portfolio-container{
   margin-top:15px;
+}
+
+#top-single-portfolio{
+  margin-top:0px;
 }
 
 .single-portfolio-img-container{
@@ -248,7 +252,7 @@ border-color: #32826B;
 }
 
 .skills-content-container{
-  margin: 5px 10px 5px 10px;
+  margin: 10px 10px 5px 10px;
 }
 
 /* .single-skill-content{
@@ -257,14 +261,41 @@ border-color: #32826B;
 
 .skill-title{
   font-family: 'Cutive Mono', monospace;
-  font-size: 1rem;
+  font-size: .9rem;
 }
 
 .skill-content{
   font-family: 'Cutive Mono', monospace;
   font-size: .7rem;
-  margin: 5px;
+  margin: 5px 10px 5px 10px;
 }
+
+#contact-container{
+  margin: 0px 15px 0px 15px;
+}
+
+#contact-title{
+  color: #32826B;
+}
+
+.contact-link-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.single-contact-link-container{
+  width: 1.75em;
+  padding: 10px;
+}
+
+.link-logo{
+  width: 100%
+}
+
+
+
 
 
 @media only screen and (min-width: 475px){
