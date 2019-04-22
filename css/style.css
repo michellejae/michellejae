@@ -321,6 +321,10 @@ border-color: #32826B;
   .single-contact-link-container{
     width:2.5em;
   }
+
+  #resume-link{
+    font-size: 2.5em;
+  }
 }
 
 
