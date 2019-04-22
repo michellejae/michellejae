@@ -216,14 +216,16 @@ border-color: #32826B;
   margin: 10px 20px 10px 20px;
 }
 
-/* s */
+.single-portfolio-container{
+  margin-bottom: 10px;
+}
 
 #top-single-portfolio{
   margin-top:0px;
 }
 
 .single-portfolio-img-container{
-  height: 150px
+  height: 150px;
 }
 
 .portfolio-img{
@@ -234,13 +236,13 @@ border-color: #32826B;
 
 .single-portfolio-content{
   font-family: 'Cutive Mono', monospace;
-  font-size: .75rem;
-  margin: 10px 5px 5px 5px;
+  font-size: .85rem;
+  margin: 10px 5px 15px 5px;
 }
 
-.single-portfolio-stack{
+.single-portfolio-title{
   font-family: 'Cutive Mono', monospace;
-  font-size: .7rem;
+  font-size: 1.25rem;
   margin: 5px;
 }
 
@@ -378,7 +380,7 @@ border-color: #32826B;
   }
 
   .single-portfolio-container{
-    width: 25%;
+    width: 35%;
   }
 
   .section-titles{
