@@ -279,7 +279,12 @@ border-color: #32826B;
 }
 
 .contact-link-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.links-container{
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -292,6 +297,13 @@ border-color: #32826B;
 
 .link-logo{
   width: 100%
+}
+
+#resume-link{
+  font-size: 1.5em;
+  font-family: 'Shadows Into Light', cursive;
+  display: flex;
+  justify-content: center;
 }
 
 
