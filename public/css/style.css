@@ -340,6 +340,15 @@ border-color: #32826B;
 .single-portfolio-container{
   width: 100%;
 }
+.portfolio-content-container{
+  margin: 10px;
+}
+.single-portfolio-title{
+  margin: 5px 20px 5px 20px;
+}
+.single-portfolio-content{
+  margin: 0px 25px 0px 25px;
+}
 
 }
 
