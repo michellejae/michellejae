@@ -200,7 +200,7 @@ border-color: #32826B;
 }
 
 #portfolio-container{
-  margin: 0px 15px 0px 15px;
+  margin-top: 20px;
 }
 
 .section-titles{
@@ -213,15 +213,12 @@ border-color: #32826B;
 }
 
 .portfolio-content-container{
-  margin: 10px 20px 10px 20px;
+  margin-top: 20px;
 }
 
 .single-portfolio-container{
-  margin-bottom: 10px;
-}
-
-#top-single-portfolio{
-  margin-top:0px;
+  margin-bottom: 30px;
+  width: 40%;
 }
 
 .single-portfolio-img-container{
@@ -236,32 +233,26 @@ border-color: #32826B;
 
 .single-portfolio-content{
   font-family: 'Cutive Mono', monospace;
-  font-size: .85
-  rem;
-  margin: 10px 5px 15px 5px;
+  font-size: .9rem;
+  margin: 0px 35px 0px 35px;
+
 }
 
 .single-portfolio-title{
   font-family: 'Cutive Mono', monospace;
-  font-size: 1.25rem;
-  margin: 5px;
+  font-size: 1.35rem;
+  margin: 10px 25px 5px 25px;
 }
 
-#skills-container{
-  margin: 0px 15px 0px 15px;
-}
 
 #skills-title{
   color: #F89522;
 }
 
 .skills-content-container{
-  margin: 10px 10px 5px 10px;
+  margin: 0px 15px 0px 15px;
 }
 
-/* .single-skill-content{
-  border: 1px solid yellowgreen;
-} */
 
 .skill-title{
   font-family: 'Cutive Mono', monospace;
@@ -275,7 +266,7 @@ border-color: #32826B;
 }
 
 #contact-container{
-  margin: 0px 15px 0px 15px;
+  margin-top: 30px;
 }
 
 #contact-title{
@@ -317,10 +308,6 @@ border-color: #32826B;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-  }
-
-  .single-portfolio-container{
-    width: 40%;
   }
 
   .single-contact-link-container{
@@ -378,11 +365,7 @@ border-color: #32826B;
 
   .portfolio-content-container{
     display: flex;
-    justify-content: space-evenly;
-  }
-
-  .single-portfolio-container{
-    width: 35%;
+    justify-content: space-around;
   }
 
   .section-titles{
