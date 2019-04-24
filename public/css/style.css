@@ -319,7 +319,8 @@ border-color: #32826B;
 
 @media only screen and (max-width: 475px){
 #name{
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'NorthBergen-Light';
 }
 #dice-container{
   height: 2em;
@@ -330,6 +331,16 @@ border-color: #32826B;
   height: 1.75em;
   width: 1.75em;
 }
+#content-container{
+  margin-top:50px
+}
+#about-container{
+  margin: 0px 10px 10px 10px;
+}
+.single-portfolio-container{
+  width: 100%;
+}
+
 }
 
 @media only screen and (max-width: 775px){
