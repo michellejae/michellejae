@@ -24,7 +24,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 #nav-container{
@@ -299,6 +299,12 @@ border-color: #32826B;
   color: black;
 }
 
+@media only screen and (min-width: 555px) and (max-width: 775px){
+#content-container{
+  margin-top: 70px;
+}
+}
+
 
 @media only screen and (min-width: 555px){
   .portfolio-content-container{
@@ -327,9 +333,9 @@ border-color: #32826B;
   height: 1.75em;
   width: 1.75em;
 }
-#content-container{
+/* #content-container{
   margin-top:50px
-}
+} */
 #about-container{
   margin: 0px 10px 10px 10px;
 }
