@@ -5,4 +5,5 @@
 <h3>to/da</h3>
 <ul>
   <li>top margin on web too big</li>
+  <li>test out on safari</li>
 </ul>
