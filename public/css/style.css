@@ -76,7 +76,7 @@ color: rgba(10, 10, 10, 0.959);
 
 .list-item{
   font-family: 'NorthBergen-Light';
-  font-size: 2em;
+  font-size: 1.5em;
   cursor: grab;
   cursor: -moz-grab;
 }
@@ -200,7 +200,7 @@ border-color: #32826B;
 }
 
 .section-titles{
-  font-size: 1.5em;
+  font-size: 1.35em;
   font-family: 'NorthBergen-Light';
 }
 
@@ -236,7 +236,7 @@ border-color: #32826B;
 
 .single-portfolio-title{
   font-family: 'Cutive Mono', monospace;
-  font-size: 1.35rem;
+  font-size: 1.3rem;
   margin: 10px 25px 5px 25px;
 }
 
@@ -252,12 +252,12 @@ border-color: #32826B;
 
 .skill-title{
   font-family: 'Cutive Mono', monospace;
-  font-size: .9rem;
+  font-size: 1.2rem;
 }
 
 .skill-content{
   font-family: 'Cutive Mono', monospace;
-  font-size: .7rem;
+  font-size: .9rem;
   margin: 5px 10px 5px 10px;
 }
 
@@ -299,17 +299,12 @@ border-color: #32826B;
 }
 
 
-@media only screen and (min-width: 475px){
+@media only screen and (min-width: 555px){
   .portfolio-content-container{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
   }
-
-  .single-contact-link-container{
-    width:2.5em;
-  }
-
   #resume-link{
     font-size: 2.5em;
   }
@@ -317,7 +312,7 @@ border-color: #32826B;
 
 
 
-@media only screen and (max-width: 475px){
+@media only screen and (max-width: 555px){
 #name{
   font-size: 1.5em;
   font-family: 'NorthBergen-Light';
@@ -344,15 +339,15 @@ border-color: #32826B;
   margin: 10px;
 }
 .single-portfolio-title{
-  margin: 5px 20px 5px 20px;
+  margin: 5px 10px 5px 10px;
 }
 .single-portfolio-content{
-  margin: 0px 25px 0px 25px;
+  margin: 0px 15px 0px 15px;
 }
 
 }
 
-@media only screen and (max-width: 775px){
+@media only screen and (max-width: 955px){
   #nav-list-container{
     display: none;
   }
@@ -360,9 +355,9 @@ border-color: #32826B;
 }
 
 @media only screen and (min-width: 775px){
-  .dropdown-container{
+  /* .dropdown-container{
     display: none;
-  }
+  } */
 
   #about-container{
     flex-direction: row;
@@ -395,6 +390,10 @@ border-color: #32826B;
   .skill-content{
     font-size: 1rem;
   }
+}
 
-  
+@media only screen and (min-width: 955px){
+  .dropdown-container{
+    display: none;
+  }
 }

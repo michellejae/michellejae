@@ -9,4 +9,5 @@
   <li>chat with rina about how text below project lays out. should stack be smaller. fill in actually wording first</li>
   <li>margins at bottom of each portfolios sections</li>
   <li>change drop down to just have list move under my name</li>
+  <li>top margin on web too big</li>
 </ul>
