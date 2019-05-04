@@ -2,14 +2,13 @@ body{
   margin: 8px;
   padding: 0;
   min-height: 100%;
-  background-color:rgb(255, 254, 252); 
+  background-color:#FFFFFF; 
 }
 
 #container{
-  background-color: rgb(255, 254, 252);
+  background-color: #FFFFFF;
   max-width: 1000px;
   margin: auto;
-  border:10px solid rgb(255, 254, 252);
 }
 
 #nav-wrapper{
@@ -33,7 +32,7 @@ flex-direction: row;
 justify-content: space-between;
 margin: 0px 20px 10px 20px;
 align-items: center;
-background-color:rgb(255, 254, 252);
+background-color:#FFFFFF;
 padding-top:10px;
 }
 
@@ -50,8 +49,8 @@ color: rgba(10, 10, 10, 0.959);
 }
 
 #dice-container{
-  height: 4em;
-  width: 4em;
+  height: 2.75em;
+  width: 2.75em;
 
 }
 
