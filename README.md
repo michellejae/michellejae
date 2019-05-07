@@ -3,5 +3,5 @@
 
 
 ##to/da##
-- vectorize dice and change logo and favicon. need no background
-- possibly update bg to one of the two white colors in color pikcer
+- fix margins in mobile
+- possibly add the unfun facts or something
