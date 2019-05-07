@@ -4,4 +4,4 @@
 
 ##to/da##
 - fix margins in mobile
-- possibly add the unfun facts or something
+- possibly add the unfun facts or something if you click on photo. 

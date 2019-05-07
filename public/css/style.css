@@ -196,8 +196,16 @@ border-color: #32826B;
   margin-top: 30px;
 }
 
+#it-me-container{
+  text-align: center;
+}
+
 #it-me{
   max-width: 50%;
+}
+
+section{
+  margin: 5px;
 }
 
 .section-titles{
@@ -230,7 +238,7 @@ border-color: #32826B;
 
 .single-portfolio-content{
   font-family: 'Cutive Mono', monospace;
-  font-size: .9rem;
+  font-size: .85rem;
   margin: 0px 20px 0px 20px;
 
 }
@@ -258,7 +266,7 @@ border-color: #32826B;
 
 .skill-content{
   font-family: 'Cutive Mono', monospace;
-  font-size: .9rem;
+  font-size: .85rem;
   margin: 5px 10px 5px 10px;
 }
 
