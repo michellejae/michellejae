@@ -3,7 +3,5 @@
 
 
 ##to/da##
-- update dice 
-- put in a favicon
-- update link / photo for hikenow
-- update content for hikenow and cms
+- vectorize dice and change logo and favicon. need no background
+- possibly update bg to one of the two white colors in color pikcer
