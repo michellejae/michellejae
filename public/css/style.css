@@ -309,7 +309,6 @@ section{
 }
 
 #fun-fact-page-container{
-  border: 1px solid black;
   background-color: rgb(248,248,248);
   max-width: 1000px;
   margin: auto;
@@ -359,6 +358,8 @@ section{
   font-family:'Cutive Mono', monospace;
   font-size: .75em;
   color: #32826B;
+  display: flex;
+  align-items: center;
 }
 
 #unfun{
@@ -386,6 +387,18 @@ section{
   }
   #resume-link{
     font-size: 2.5em;
+  }
+  #fun-fact-title-content{
+    font-size: 1.85em;
+  }
+  #fun-fact-title{
+    font-size: 2.5em;
+  }
+  #fun-fact-dice-container{
+    margin-right:10px;
+  }
+  #fun-fact{
+    font-size: .95em
   }
 }
 
