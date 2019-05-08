@@ -356,7 +356,7 @@ section{
 
 .fun-fact{
   font-family:'Cutive Mono', monospace;
-  font-size: .75em;
+  font-size: .8em;
   color: #32826B;
   display: flex;
   align-items: center;
@@ -367,6 +367,10 @@ section{
   font-size: .5em;
 }
 
+#extra{
+  color: #E42D33;
+  font-size: .75em;
+}
 
 
 
@@ -400,6 +404,10 @@ section{
   .fun-fact{
     font-size: .95em
   }
+  #extra{
+    font-size: .95em;
+  }
+  
 }
 
 
@@ -453,33 +461,26 @@ section{
     justify-content: space-around;
     margin: 20px;
   }
-
   #about-text-container{
     max-width: 40%;
   }
-
   #it-me{
     max-width: 100%;
   }
-
   #it-me-container{
     order: 1;
     max-width: 35%;
   }
-
   .portfolio-content-container{
     display: flex;
     justify-content: space-around;
   }
-
   .section-titles{
     font-size: 2em;
   }
-
   .skill-title{
     font-size: 1.5rem;
   }
-  
   .skill-content{
     font-size: 1rem;
   }
@@ -498,6 +499,9 @@ section{
   .fun-fact{
     font-size: 1.1em;
   }
+  #extra{
+    font-size: .7em;
+  }
 }
 
 @media only screen and (min-width: 955px){
@@ -515,5 +519,8 @@ section{
   }
   .fun-fact{
     font-size: 1.25em;
+  }
+  #extra{
+    font-size: .8em;
   }
 }
