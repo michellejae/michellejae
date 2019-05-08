@@ -23,7 +23,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 #nav-container{
@@ -193,7 +193,7 @@ border-color: #32826B;
   font-family: 'Cutive Mono', monospace;
   font-size: .9rem;
   color: #E42D33;
-  margin-top: 30px;
+  margin-top: 15px;
 }
 
 #it-me-container{
@@ -310,7 +310,7 @@ section{
 
 @media only screen and (min-width: 555px) and (max-width: 775px){
 #content-container{
-  margin-top: 70px;
+  margin-top: 90px;
 }
 }
 
@@ -342,9 +342,6 @@ section{
   height: 1.75em;
   width: 1.75em;
 }
-/* #content-container{
-  margin-top:50px
-} */
 #about-container{
   margin: 0px 10px 10px 10px;
 }
@@ -386,8 +383,12 @@ section{
   }
 
   #it-me{
-    max-width: 30%;
+    max-width: 100%;
+  }
+
+  #it-me-container{
     order: 1;
+    max-width: 35%;
   }
 
   .portfolio-content-container{
