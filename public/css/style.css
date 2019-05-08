@@ -496,12 +496,24 @@ section{
     margin-right: 20px;
   }
   .fun-fact{
-    font-size: 1.1em
+    font-size: 1.1em;
   }
 }
 
 @media only screen and (min-width: 955px){
   .dropdown-container{
     display: none;
+  }
+  #fun-fact-content-container{
+    margin: 40px;
+  }
+  #fun-fact-title-content{
+    font-size: 3.5em;
+  }
+  #fun-fact-title{
+    font-size: 3.75em;
+  }
+  .fun-fact{
+    font-size: 1.25em;
   }
 }
