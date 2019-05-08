@@ -394,10 +394,10 @@ section{
   #fun-fact-title{
     font-size: 2.5em;
   }
-  #fun-fact-dice-container{
+  .fun-fact-dice-container{
     margin-right:10px;
   }
-  #fun-fact{
+  .fun-fact{
     font-size: .95em
   }
 }
@@ -482,6 +482,21 @@ section{
   
   .skill-content{
     font-size: 1rem;
+  }
+  #fun-fact-content-container{
+    margin: 20px;
+  }
+  #fun-fact-title-content{
+    font-size: 2.5em;
+  }
+  #fun-fact-title{
+    font-size: 3.25em;
+  }
+  .fun-fact-dice-container{
+    margin-right: 20px;
+  }
+  .fun-fact{
+    font-size: 1.1em
   }
 }
 
