@@ -6,4 +6,5 @@ package-lock.json
 
 /placeholders
 
+.DS_Store
 #npm-debug.log*

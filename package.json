@@ -9,7 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gatsby-cli": "^2.5.5",
     "live-server": "^1.2.1"
   }
 }
