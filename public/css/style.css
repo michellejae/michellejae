@@ -249,6 +249,10 @@ section{
   margin: 10px 15px 5px 15px;
 }
 
+.single-portfolio-title > span{
+  font-size: .9rem;
+}
+
 
 #skills-title{
   color: #F89522;
